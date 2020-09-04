@@ -70,4 +70,7 @@ class Guru extends CI_Controller
         $file = './assets/data/materi/' . $getFile['materi'];
         return force_download($file, NULL);
     }
+    public function tesBOT()
+    {
+    }
 }
